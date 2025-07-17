@@ -5,7 +5,7 @@ Designed and implemented a parameterizable Round Robin Arbiter in SystemVerilog 
 **Round Robin Arbiter – SystemVerilog RTL Implementation**
 
 **Overview**\
-This project implements a parameterizable Round Robin Arbiter in Verilog that fairly arbitrates among multiple requesters (In) and grants access (Grant) to one of them in a rotating manner. The arbiter avoids starvation by rotating the priority based on the last granted agent.\
+This project implements a parameterizable Round Robin Arbiter in Verilog that fairly arbitrates among multiple requesters (In) and grants access (Grant) to one of them in a rotating manner. The arbiter avoids starvation by rotating the priority based on the last granted agent.
 
 **Key Features**
 * Parameterizable number of agents (NumOfAgents).
