@@ -34,3 +34,6 @@ The arbiter rotates the input request vector so that the agent following the las
 A priority encoder selects the first active request in the rotated input (RotIn).\
 The rotated grant is shifted back to match the original input positions and drive Grant.\
 LastGrant is updated with the index of the newly granted agent.
+
+**EdaPlayground Link:**
+https://www.edaplayground.com/x/j6VV
